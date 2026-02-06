@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Cursos - Ciencia de Datos</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      window.tailwind = window.tailwind || {};
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primario: "#0EA5E9",
+              primarioOscuro: "#0B6B9F",
+              acento: "#F97316",
+              fondo: "#0F172A",
+            },
+            fontFamily: {
+              display: ["'Space Grotesk'", "Inter", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-50 font-display antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
